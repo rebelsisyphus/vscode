@@ -58,9 +58,8 @@ ostream &operator<<(ostream &os,const complex &c){
 int main(){
     complex c1(1,2),c2(5,3);
     complex c3;
-    c3=2+c2;
-     (++c1).printc();
-    cout<<c3<<5<<endl;
+    c3=c2+2;
+    cout<<c3<<c2<<endl;
     return 0;
     
 }
